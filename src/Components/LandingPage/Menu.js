@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import {} from "react-icons/"
+// import {} from "react-icons/"
+import DemoCarousel from "./Slide.js"
 
 const Menu = () => {
     return(
@@ -12,6 +13,9 @@ const Menu = () => {
                     eligendi rem adipisci quo modi.</P>
                     <Button> Full Menu</Button>
                 </Div>
+                <SlideWrap>
+                <DemoCarousel/>
+                </SlideWrap>
             </Wrapper>
         </Container>
     )
@@ -49,4 +53,15 @@ height: max-content;
 padding: 0.55rem 0;
 `;
 const P = styled.span``;
-const Button = styled.div``;
+const Button = styled.button`
+
+`;
+
+const SlideWrap = styled.div`
+
+/* display :flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+z-index: 1; */
+`;
