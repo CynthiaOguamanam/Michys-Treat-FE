@@ -13,9 +13,9 @@ const Menu = () => {
                     eligendi rem adipisci quo modi.</P>
                     <Button> Full Menu</Button>
                 </Div>
-                <CarouselHold>
-                <DemoCarousel/>
-                </CarouselHold>
+                {/* <CarouselHold> */}
+                    <DemoCarousel/>
+                {/* </CarouselHold> */}
             </Wrapper>
         </Container>
     )
@@ -56,10 +56,9 @@ const P = styled.span``;
 const Button = styled.button`
 
 `;
-const CarouselHold = styled.div`
-width: 90%;
-height: 70%;
-object-fit: cover;
-border-radius: 8px;
-
-`;
+// const CarouselHold = styled.div`
+// width: 100%;
+// /* height: 40vh; */
+// object-fit: cover;
+// border-radius: 8px;
+// `;
