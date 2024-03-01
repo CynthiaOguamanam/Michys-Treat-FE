@@ -13,9 +13,9 @@ const Menu = () => {
                     eligendi rem adipisci quo modi.</P>
                     <Button> Full Menu</Button>
                 </Div>
-                <SlideWrap>
+                <CarouselHold>
                 <DemoCarousel/>
-                </SlideWrap>
+                </CarouselHold>
             </Wrapper>
         </Container>
     )
@@ -56,12 +56,10 @@ const P = styled.span``;
 const Button = styled.button`
 
 `;
+const CarouselHold = styled.div`
+width: 90%;
+height: 70%;
+object-fit: cover;
+border-radius: 8px;
 
-const SlideWrap = styled.div`
-
-/* display :flex;
-justify-content: center;
-align-items: center;
-overflow: hidden;
-z-index: 1; */
 `;
