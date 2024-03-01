@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 // import {} from "react-icons/"
-import DemoCarousel from "./Slide.js"
+import Slider2 from "./Slider2";
 
 const Menu = () => {
     return(
@@ -13,9 +13,7 @@ const Menu = () => {
                     eligendi rem adipisci quo modi.</P>
                     <Button> Full Menu</Button>
                 </Div>
-                {/* <CarouselHold> */}
-                    <DemoCarousel/>
-                {/* </CarouselHold> */}
+                <Slider2/>
             </Wrapper>
         </Container>
     )
@@ -25,7 +23,7 @@ export default Menu;
 
 const Container = styled.div`
 width: 100%;
-height: 90vh;
+height: 70vh;
 display: flex;
 justify-content: center;
 align-items: center;
