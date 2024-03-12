@@ -1,19 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 // import {} from "react-icons/"
-import Slider2 from "./Slider2";
 
 const Menu = () => {
     return(
         <Container>
             <Wrapper>
-                <H1>Most popular dishes</H1>
-                <Div>
+                <H1>P</H1>
                     <P>Consectetur numquam poro nemo veniam <br/>
                     eligendi rem adipisci quo modi.</P>
                     <Button> Full Menu</Button>
-                </Div>
-                <Slider2/>
             </Wrapper>
         </Container>
     )
