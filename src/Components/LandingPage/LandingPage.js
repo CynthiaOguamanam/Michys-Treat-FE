@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import HeroPage from './HeroPage'
 import Whatyoulike from './Whatyoulike'
-import Menu from "./Menu.js"
+// import Menu from "./Menu.js"
+import Service from './Service'
 
 
 const LandingPage = () => {
@@ -10,7 +11,8 @@ const LandingPage = () => {
     <Container>
     <HeroPage/>
     <Whatyoulike/>
-    <Menu/>
+    <Service/>
+    {/* <Menu/> */}
     </Container>
   )
 }
